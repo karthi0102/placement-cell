@@ -1,0 +1,43 @@
+.details-page-container{
+    height: 100vh;
+    width: 100%;
+    .filter-form{
+        padding: 10px;
+        border-radius: 20px;
+        border:4px solid var(--blue);
+        p{
+            text-align: center;
+            font-size: 2rem;
+            color: var(--purple);
+        }
+        select,option{
+            color: var(--black);
+            background-color: white !important;
+        }
+    }
+    .no-results{
+        background-color: var(--white);
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    label{
+        color: var(--purple);
+    }
+    table{
+        
+        color:var(--white);
+        th{
+            color: var(--black) !important;
+        }
+       
+       
+        color:var(--blue) !important;
+        img{
+            height: 50px;
+            width: 50px;
+        
+        }}
+}

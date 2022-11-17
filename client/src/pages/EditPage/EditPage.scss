@@ -1,0 +1,35 @@
+.edit-page-container{
+    height: 100vh;
+    width: 100%;
+    .edit-form-container{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+        border: 4px solid var(--purple);
+            padding: 20px;
+            border-radius: 10px;
+        .image-container{
+            height: 200px;
+            width:200px;
+           
+
+            img{
+                height: 100%;
+                width:100%;
+                border-radius: 50%;
+            }
+        }
+                .btn {
+                    background-color: var(--white) !important;
+                    color: var(--blue) !important;
+                }
+                 option {
+                     color: var(--purle);
+                     background-color: var(--white);
+                 }
+                 label,.fieldset{
+                    color: var(--purple);
+                 }
+    }
+}

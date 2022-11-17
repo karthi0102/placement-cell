@@ -1,0 +1,21 @@
+.spinner-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    .spinner-border {
+        width: 50px;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: var(--white);
+
+        .spinner-logo {
+            font-size: 2rem;
+            color: var(--purple);
+        }
+    }
+}

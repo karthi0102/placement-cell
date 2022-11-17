@@ -1,0 +1,25 @@
+:root{
+    --black:#30343f;
+    --white:#fafaff;
+    --purple:#e4d9ff;
+    --blue:#273469;
+    --dark:#1e2749;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--dark);
+}
+
+html,body{
+    height: 100vh;
+    width: 100%;
+   
+}
+
+a,button,i{
+    cursor: pointer;
+}
+
