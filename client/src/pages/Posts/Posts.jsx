@@ -29,7 +29,7 @@ const Posts = () => {
                 <div className="row">
 
                {posts.map(p=>(
-                <div className="col-3 my-2" key={p._id }>
+                <div className="col-3 my-2" key={p._id } style={{height:"400px"}}>
                     <PostCard post={p} id={id}/>
                 </div>
                ))}

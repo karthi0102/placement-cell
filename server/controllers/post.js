@@ -21,7 +21,6 @@ module.exports.viewPost = async(req,res)=>{
 }
 
 module.exports.newPost = async(req,res)=>{
-    console.log(req.body)
     try {
 
         const post =new Post({...req.body});

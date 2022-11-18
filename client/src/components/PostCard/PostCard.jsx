@@ -21,7 +21,7 @@ const PostCard = ({post,id}) => {
                <p>PostedBy - {post.postedBy.name}</p>
                <hr />
                <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}} >
-               {post.postedBy._id==id ? <p><i onClick={handleDelete} class="fa-solid fa-trash"></i></p> :<p></p>}
+               {post.postedBy._id==id ? <p><i onClick={handleDelete} className="fa-solid fa-trash"></i></p> :<p></p>}
                <p className='p-0 text-center'><i class="fa-solid fa-clock"></i> {moment(post.postedOn).fromNow()}</p>
                </div>
             </div>
